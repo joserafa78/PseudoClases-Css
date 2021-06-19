@@ -1,0 +1,73 @@
+#aside1 a:active{
+    background: black;
+    color: red;
+}
+#aside2 a:link{
+    color: yellow;
+}
+#aside3 a:visited{
+    color: green;
+}
+#aside4 a:hover{
+    color: orange;
+}
+#aside5 .contenedor p:first-child{
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside6 .contenedor p:last-child{
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside7 .contenedor p:first-of-type {
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside8 .contenedor p:last-of-type {
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside9 .contenedor ul li:nth-child(5) {
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside10 .contenedor ul li:nth-child(odd) {
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside11 .contenedor ul li:nth-child(3n) {
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside12 .contenedor ul li:nth-last-child(4) {
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside13 .elementos p:nth-of-type(2) {
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside14 .elementos div:nth-last-of-type(2) {
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside15 .elementos h6:only-child{
+   background-color: blue;
+    color: white;
+    width: 50%;
+}
+#aside16 .elementos h4:only-of-type{
+   background-color: blue;
+    color: white;
+    width: 50%;
+}

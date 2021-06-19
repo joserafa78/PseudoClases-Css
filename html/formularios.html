@@ -1,0 +1,186 @@
+<!DOCTYPE htmls>
+<html>
+
+<head>
+    <title>Elementos</title>
+    <meta name="Formularios" content="Academico">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/CssPrincipal.css">
+    <link rel="stylesheet" href="../css/CssFormularis.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div id="div_img">
+            <img id="img_p" src="../img/apple-logo.png">
+        </div>
+        <div class="div_h1">
+            <h1>Mas Css3 a Fondo</h1>
+            <p id="p1">Reduciendo al Brecha Tecnologica</p>
+        </div>
+    </header>
+    <br><br>
+    <div class="barra">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="img/icono-menu.png" alt=""></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html" accesskey="P" title="Alt+P"><strong>P</strong>rincipal</a></li>
+                <li><a href="elementos.html" accesskey="E" title="Alt+E">Pseudo <strong>E</strong>lementos</a></li>
+                <li><a href="clases.html" accesskey="C" title="Alt+C">Pseudo <strong>C</strong>lases</a></li>
+                <li><a href="formularios.html" accesskey="F" title="Alt+F">Efecto <strong>F</strong>ormularios </a></li>
+                <li><a href="iconos.html" accesskey="I" title="Alt+I">Insertar <strong>I</strong>conos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="titulo">
+        <h2>Formularios</h2>
+    </div>
+    <aside>
+        <h3>Focus</h3>
+        <p>Se Aplica cuando se activa el Input con cun clic cambiamos su apariencia</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <form action="" id="formulario1" class="form">
+            <div class="grupo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="grupo">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Apellido">
+            </div>
+            <div class="grupo">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" placeholder="Su Empresa">
+            </div>
+        </form>
+    </aside>
+    <aside>
+        <h3>Disable</h3>
+        <p>Nos permite acceder a un elemento del formulario cuando este se encuentra cun estado "Disable" o sea Desabilitado</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <form action="" id="formulario2" class="form">
+            <div class="grupo">
+                <label for="cod">Codigo</label>
+                <input type="text" id="cod" value="A52B4012C" disabled>
+            </div>
+            <div class="grupo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="grupo">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Apellido">
+            </div>
+
+        </form>
+    </aside>
+
+    <aside>
+        <h3>Valid / Invalid</h3>
+        <p>Nos permite acceder a un elemento del formulario cuando tiene una Valor Valido o Invalido</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <form action="" id="formulario3" class="form">
+            <div class="grupo">
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" placeholder="Correo Valido">
+                <label id="validar" for=""></label>
+            </div>
+        </form>
+    </aside>
+    <aside>
+        <h3>Requierd</h3>
+        <p>Nos permite acceder a un elemento del formulario cuando tiene un Estado Requerido</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <form action="" id="formulario5" class="form">
+            <div class="grupo">
+                <label for="cc">Cedula C</label>
+                <input type="number" id="cc" placeholder="Cedula" required>
+            </div>
+            <div class="grupo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Nombre" required>
+            </div>
+            <div class="grupo">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Apellido" required>
+            </div>
+            <div class="grupo">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" placeholder="Su Empresa">
+            </div>
+        </form>
+    </aside>
+    <aside>
+        <h3>CheckBox</h3>
+        <p>Nos permite acceder al estado de un Checkbox cuando a sido Marcado</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <form action="" id="formulario6" class="form">
+            <div class="grupo">
+                <label for="Check1">
+                    <input type="checkbox" id="Check1" class="check">
+                    Noticias</label>
+
+                <label for="Check2">
+                    <input type="checkbox" id="Check2" class="check">
+                    Negocios</label>
+
+                <label for="Check3">
+                    <input type="checkbox" id="Check3" class="check">
+                    Noticias</label>
+            </div>
+        </form>
+    </aside>
+    <aside>
+        <h3>Default</h3>
+        <p>Nos permite acceder al estado de un RadioButon marcado por defecto dando un Estilo</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <form action="" id="formulario7" class="form">
+            <div class="grupo">
+                <label>
+                    <input type="radio" name="opcion">
+                    Opcion 1</label>
+                <label>
+                    <input type="radio" name="opcion">
+                    Opcion 2</label>
+                <label>
+                    <input type="radio" name="opcion" checked>
+                    Opcion 3</label>
+                <label>
+                    <input type="radio" name="opcion">
+                    Opcion 4</label>
+
+            </div>
+        </form>
+    </aside>
+    
+    <aside>
+        <h3>out-of-range  y in-range</h3>
+        <p>Nos permite acceder al estado de un Elemento "Text=number" Range  cuando el valor esta fuera de Rango</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <form action="" id="formulario8" class="form">
+            <div class="grupo">
+                <label> Edad</label>
+                    <input type="number" min="1" max="100">
+            </div>
+        </form>
+    </aside>
+    <footer>
+        <address>
+            <h3>Jose Rafel Jimenez Serna</h3>
+            <hr size="2">
+            <p> <strong>Twitter:</strong> @Joserafa78 </p>
+            <p> <strong>Whatsapp:</strong> +57 313.694.67.36 </p>
+            <p> Desarrollador FullStart </p>
+        </address>
+    </footer>
+</body></html>

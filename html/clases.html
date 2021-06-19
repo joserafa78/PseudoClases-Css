@@ -1,0 +1,292 @@
+<!DOCTYPE htmls>
+<html>
+
+<head>
+    <title>Clases</title>
+    <meta name="Pseudo-Clases" content="Academico">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/CssPrincipal.css">
+    <link rel="stylesheet" href="../css/CssPsedoClases.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div id="div_img">
+            <img id="img_p" src="../img/apple-logo.png">
+        </div>
+        <div class="div_h1">
+            <h1>Mas Css3 a Fondo</h1>
+            <p id="p1">Reduciendo al Brecha Tecnologica</p>
+        </div>
+    </header>
+    <br><br>
+    <div class="barra">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="img/icono-menu.png" alt=""></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html" accesskey="P" title="Alt+P"><strong>P</strong>rincipal</a></li>
+                <li><a href="elementos.html" accesskey="E" title="Alt+E">Pseudo <strong>E</strong>lementos</a></li>
+                <li><a href="clases.html" accesskey="C" title="Alt+C">Pseudo <strong>C</strong>lases</a></li>
+                <li><a href="formularios.html" accesskey="F" title="Alt+F">Efecto <strong>F</strong>ormularios </a></li>
+                <li><a href="iconos.html" accesskey="I" title="Alt+I">Insertar <strong>I</strong>conos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="titulo">
+        <h2>Pseudo-Clases</h2>
+    </div>
+    <aside id="aside1">
+        <h3>Active</h3>
+        <p>Permite cambiar los estilos al Enlace mientras hacemos Clic y mantenemos presionado el Elemento enlace</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <p id="ejm1">Esto es una prueba del Pseudo-Clase Active donde aplico estilo Background (Negro) al Enlace</p>
+        <a href="#">Enalce</a>
+
+    </aside>
+    <aside id="aside2">
+        <h3>Link</h3>
+        <p>Permite cambiar los estilos al Enlace mientras No hallamos entrado al Elemento enlace</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <p id="ejm1">Esto es una prueba del Pseudo-Clase Active donde aplico estilo Background (Negro) al Enlace</p>
+        <a href="http://google.com">Enalce</a>
+
+    </aside>
+    <aside id="aside3">
+        <h3>Visited</h3>
+        <p>Permite cambiar los estilos al Enlace cuando ya ha sido visitado</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <p id="ejm1">Esto es una prueba del Pseudo-Clase Visite donde aplico estilo color (Verde) al Enlace</p>
+        <a href="http://mercadolibre.com">Enalce</a>
+
+    </aside>
+    <aside id="aside4">
+        <h3>Hover</h3>
+        <p>Permite cambiar los estilos al Enlace cuando pasamos el mouse subre el elemento html</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <p id="ejm1">Esto es una prueba del Pseudo-Clase hover donde aplico estilo color (Naranja) al Enlace</p>
+        <a href="http://ucab.edu.ve">Enalce</a>
+
+    </aside>
+    <aside id="aside5">
+        <h3>First-Child</h3>
+        <p>Permite seleccionar el Primer Elemento de una Contenedor</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="contenedor">
+            <p>Soy el Primer Parrafo</p>
+            <p>Soy el Segundo Parrafo</p>
+            <p>Soy el Tercer Parrafo</p>
+            <p>Soy el Cuarto Parrafo</p>
+            <p>Soy el Quinto Parrafo</p>
+
+        </div>
+    </aside>
+    <aside id="aside6">
+        <h3>Last-Child</h3>
+        <p>Permite seleccionar el Ultimo Elemento de una Contenedor</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="contenedor">
+            <p>Soy el Primer Parrafo</p>
+            <p>Soy el Segundo Parrafo</p>
+            <p>Soy el Tercer Parrafo</p>
+            <p>Soy el Cuarto Parrafo</p>
+            <p>Soy el Quinto Parrafo</p>
+
+        </div>
+    </aside>
+    <aside id="aside7">
+        <h3>First-of-type</h3>
+        <p>Permite seleccionar el Primer Elemento (Parrafo) dentro de un Contenedor teniendo Diversos Elemetos</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="contenedor">
+            <div>Soy un div</div>
+            <span>Soy un Span</span>
+            <p>Soy un Parrafo</p>
+            <h4>Soy un H4</h4>
+            <p>Soy un Parrafo</p>
+            <span>Soy un span</span>
+        </div>
+    </aside>
+
+    <aside id="aside8">
+        <h3>Last-of-type</h3>
+        <p>Permite seleccionar el Ultimo Elemento (Parrafo) dentro de un Contenedor teniendo Diversos Elemetos</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="contenedor">
+            <div>Soy un div</div>
+            <span>Soy un Span</span>
+            <p>Soy un Parrafo</p>
+            <h4>Soy un H4</h4>
+            <p>Soy un Parrafo</p>
+            <span>Soy un span</span>
+            <p>Soy otro Parrafo</p>
+            <h5>Soy un H5</h5>
+        </div>
+    </aside>
+
+    <aside id="aside9">
+        <h3>Nth-child</h3>
+        <p>Permite seleccionar cualquier Elemento de un Contenedor indicandole su Numero de Arriba a bajo. En este Caso se selecciona el Numero (5)</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="contenedor">
+            <ul>
+                <li>Opcion 1</li>
+                <li>Opcion 2</li>
+                <li>Opcion 3</li>
+                <li>Opcion 4</li>
+                <li>Opcion 5</li>
+                <li>Opcion 6</li>
+                <li>Opcion 7</li>
+                <li>Opcion 8</li>
+            </ul>
+        </div>
+    </aside>
+
+    <aside id="aside10">
+        <h3>Nth-child(odd)</h3>
+        <p>Permite seleccionar los Elementos inpares del Contenedor indicandole en la funcion la palabra "odd" y "even" para los pares</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="contenedor">
+            <ul>
+                <li>Opcion 1</li>
+                <li>Opcion 2</li>
+                <li>Opcion 3</li>
+                <li>Opcion 4</li>
+                <li>Opcion 5</li>
+                <li>Opcion 6</li>
+                <li>Opcion 7</li>
+                <li>Opcion 8</li>
+                <li>Opcion 9</li>
+                <li>Opcion 10</li>
+            </ul>
+        </div>
+    </aside>
+    
+    <aside id="aside11">
+        <h3>Nth-child(3n)</h3>
+        <p>Permite seleccionar Cada (2) o (3 )Elementos  del Contenedor indicandole en la funcion la palabra "3n"</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="contenedor">
+            <ul>
+                <li>Opcion 1</li>
+                <li>Opcion 2</li>
+                <li>Opcion 3</li>
+                <li>Opcion 4</li>
+                <li>Opcion 5</li>
+                <li>Opcion 6</li>
+                <li>Opcion 7</li>
+                <li>Opcion 8</li>
+                <li>Opcion 9</li>
+                <li>Opcion 10</li>
+            </ul>
+        </div>
+    </aside>
+    
+     <aside id="aside12">
+        <h3>Nth-last-child(4)</h3>
+        <p>Permite seleccionar el Elementos  del Contenedor Contando de Abajo hacia Arriba</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="contenedor">
+            <ul>
+                <li>Opcion 1</li>
+                <li>Opcion 2</li>
+                <li>Opcion 3</li>
+                <li>Opcion 4</li>
+                <li>Opcion 5</li>
+                <li>Opcion 6</li>
+                <li>Opcion 7</li>
+                <li>Opcion 8</li>
+                <li>Opcion 9</li>
+                <li>Opcion 10</li>
+            </ul>
+        </div>
+    </aside>
+    
+       <aside id="aside13">
+        <h3>Nth-of-type(4)</h3>
+        <p>Es una conbinacion entre hth-child y first-of-type que permite seleccionar un elemento entre varios.</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="elementos">
+        <div>Soy un div</div>
+            <span>Soy un Span</span>
+            <p>Soy un Parrafo</p>
+            <h4>Soy un H4</h4>
+            <p>Soy un Parrafo</p>
+            <span>Soy un span</span>
+            <p>Soy otro Parrafo</p>
+            <h5>Soy un H5</h5>
+        </div>
+    </aside>
+    
+        <aside id="aside14">
+        <h3>Nth-last-of-type()</h3>
+        <p>Es una conbinacion entre hth-child y first-of-type que permite seleccionar un elemento entre varios.</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="elementos">
+            <div>Soy un div</div>
+            <span>Soy un Span</span>
+            <p>Soy un Parrafo</p>
+            <h4>Soy un H4</h4>
+            <p>Soy un Parrafo</p>
+            <div>Soy un div</div>
+            <span>Soy un span</span>
+            <p>Soy otro Parrafo</p>
+            <h5>Soy un H5</h5>
+        </div>
+    </aside>
+    
+           <aside id="aside15">
+        <h3>Only-Child()</h3>
+        <p>Permite Seleccionar un elemento de una lista, pero si este es el unico hijo de esa lista.</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="elementos">
+            
+            <h6>Soy el Unico</h6>
+            
+        </div>
+    </aside>
+    
+           <aside id="aside16">
+        <h3>only-of-type</h3>
+        <p>Se Aplica solo si es el nunico tipo en una lista.</p>
+        <hr>
+        <p>Ejercicio:</p>
+        <div class="elementos">
+            <div>Soy un div</div>
+            <span>Soy un Span</span>
+            <p>Soy un Parrafo</p>
+            <h4>Soy un H4</h4>
+            <p>Soy un Parrafo</p>
+            <div>Soy un div</div>
+            <span>Soy un span</span>
+            <p>Soy otro Parrafo</p>
+            <h5>Soy un H5</h5>
+        </div>
+    </aside>
+    <footer>
+        <address>
+            <h3>Jose Rafel Jimenez Serna</h3>
+            <hr size="2">
+            <p> <strong>Twitter:</strong> @Joserafa78 </p>
+            <p> <strong>Whatsapp:</strong> +57 313.694.67.36 </p>
+            <p> Desarrollador FullStart </p>
+        </address>
+    </footer>
+</body></html>

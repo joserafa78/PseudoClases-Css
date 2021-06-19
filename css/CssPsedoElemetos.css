@@ -1,0 +1,15 @@
+#ejm1:first-line {
+    color: blue;
+}
+#aside2 article p:first-letter{
+    color: yellow;
+    font: 28px solid yellow;
+}
+#aside3 article p a:before{
+    color: yellow;
+    content: "Before  "
+}
+#aside4 article p a:after{
+    color: red;
+    content: " After  "
+}

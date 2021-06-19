@@ -1,0 +1,19 @@
+.imagen{
+      width: 80%;
+    height: 40vw;
+    border: 2px solid blue;
+    margin: 10px auto; 
+    border-radius: 3px;
+}
+#foto1{
+    background-image: url(../img/fontA_1.jpg);
+    background-size:contain;
+}
+#foto2{
+    background-image: url(../img/fontA_2.jpg);
+    background-size:contain;
+}
+#foto3{
+    background-image: url(../img/fontA_3.jpg);
+    background-size:contain;
+}
