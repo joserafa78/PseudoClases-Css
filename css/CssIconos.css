@@ -1,19 +1,89 @@
-.imagen{
-      width: 80%;
+.imagen {
+    width: 80%;
     height: 40vw;
     border: 2px solid blue;
-    margin: 10px auto; 
+    margin: 10px auto;
     border-radius: 3px;
 }
-#foto1{
+
+#foto1 {
     background-image: url(../img/fontA_1.jpg);
-    background-size:contain;
+    background-size: contain;
 }
-#foto2{
+
+#foto2 {
     background-image: url(../img/fontA_2.jpg);
-    background-size:contain;
+    background-size: contain;
 }
-#foto3{
+
+#foto3 {
     background-image: url(../img/fontA_3.jpg);
-    background-size:contain;
+    background-size: contain;
 }
+
+/*Iconos en Formulario*/
+/*ling: https://www.youtube.com/watch?v=rWjntaq4FW4 */
+input[type=text] {
+    width: 80%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 3s;
+
+}
+
+input[type=text]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.inputWithIcon input[type=text] {
+    padding-left: 40px;
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 3s;
+}
+
+.inputWithIcon input[type=text] + i {
+    color: dodgerblue;
+}
+
+.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+/*Segundo ling: https://www.youtube.com/watch?v=yKEHm-SHl98&t=316s*/
+.icono-placeholder {
+    padding: 0.25em 0.6em;
+    border-radius: 0.3rem;
+    border: 1px solid #d3d6e4;
+    text-align: center;
+    box-shadow: 0 2px 3px rgba(0 0 0 / 0.15);
+    width: 30%;
+    font-family: Fontawesome; /*Inportante escribir esto*/
+    font-weight: 1000;
+   
+
+}
+.iconDiseno{
+    font-size: 30px;
+    color: black;
+    
+}
+
